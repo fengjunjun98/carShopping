@@ -1,0 +1,50 @@
+/** * 文件名：Location.java 
+ * * 版本信息： 
+ * 日期：2015-1-24 
+ * Copyright: Corporation 2015 
+ * 版权所有 * */
+package com.whlingwu.car.shopping.framework.util;
+
+import java.io.Serializable;
+
+/** 项目名称：carShopping 
+ * 类名称：Location 
+ * 类描述：b2b,b2c，处理页面提交的请求。 
+ * 类描述：Bean,响应Action请求，对数据库进行操作，并把结果返回到Action。 
+ * Copyright: Copyright (c) 2015 by 芜湖领悟信息科技有限公司
+ * Company: b2c b2b game trading platform System 
+ * 创建人：凤军军
+ * 创建时间：2015-1-24 上午11:08:42 
+ * 修改人：凤军军 
+ * 修改时间：2015-1-24 上午11:08:42 
+ * 修改备注：
+ * @version 1.0* */
+
+public class Location implements Serializable{
+
+	Double lat;//纬度值
+	Double lng;//经度值
+
+	public Double getLat() {
+		return lat;
+	}
+
+	public void setLat(Double lat) {
+		this.lat = lat;
+	}
+
+	public Double getLng() {
+		return lng;
+	}
+
+	public void setLng(Double lng) {
+		this.lng = lng;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "lat:" + lat + ",lng:" + lng;
+	}
+
+}
