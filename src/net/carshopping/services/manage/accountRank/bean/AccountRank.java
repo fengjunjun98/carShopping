@@ -1,0 +1,1 @@
+package net.carshopping.services.manage.accountRank.bean;import java.io.Serializable;public class AccountRank extends net.carshopping.services.common.AccountRank implements Serializable {	private static final long serialVersionUID = 1L;	public void clear() {		super.clear();	}}

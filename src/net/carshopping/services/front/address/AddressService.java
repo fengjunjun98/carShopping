@@ -1,0 +1,1 @@
+package net.carshopping.services.front.address;import net.carshopping.core.Services;import net.carshopping.services.front.address.bean.Address;public interface AddressService extends Services<Address> {	/**	 * 设置指定的地址为默认地址	 * @param address	 */	void setAddressDefault(Address address);}

@@ -1,0 +1,1 @@
+package net.carshopping.services.manage.oss;import net.carshopping.core.Services;import net.carshopping.services.manage.oss.bean.Oss;public interface OssService extends Services<Oss> {}

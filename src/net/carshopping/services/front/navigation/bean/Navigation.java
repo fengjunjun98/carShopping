@@ -1,0 +1,1 @@
+package net.carshopping.services.front.navigation.bean;import java.io.Serializable;import net.carshopping.core.dao.page.PagerModel;public class Navigation extends net.carshopping.services.common.Navigation		implements Serializable {	private static final long serialVersionUID = 1L;	public void clear() {		super.clear();	}}

@@ -1,0 +1,1 @@
+package net.carshopping.services.manage.activity;import net.carshopping.core.Services;import net.carshopping.services.manage.activity.bean.Activity;public interface ActivityService extends Services<Activity> {}

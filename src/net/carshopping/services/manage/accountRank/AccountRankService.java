@@ -1,0 +1,1 @@
+package net.carshopping.services.manage.accountRank;import net.carshopping.core.Services;import net.carshopping.services.manage.accountRank.bean.AccountRank;public interface AccountRankService extends Services<AccountRank> {}

@@ -1,0 +1,1 @@
+package net.carshopping.services.front.pay;import net.carshopping.core.Services;import net.carshopping.services.front.pay.bean.Pay;public interface PayService extends Services<Pay> {}

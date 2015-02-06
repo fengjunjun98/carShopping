@@ -1,0 +1,1 @@
+package net.carshopping.services.front.area;import net.carshopping.core.Services;import net.carshopping.services.front.area.bean.Area;public interface AreaService extends Services<Area> {}

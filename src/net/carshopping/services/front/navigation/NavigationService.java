@@ -1,0 +1,1 @@
+package net.carshopping.services.front.navigation;import net.carshopping.core.Services;import net.carshopping.services.front.navigation.bean.Navigation;public interface NavigationService extends Services<Navigation> {}

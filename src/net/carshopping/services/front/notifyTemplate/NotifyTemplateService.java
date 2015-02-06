@@ -1,0 +1,1 @@
+package net.carshopping.services.front.notifyTemplate;import net.carshopping.core.Services;import net.carshopping.services.front.notifyTemplate.bean.NotifyTemplate;public interface NotifyTemplateService extends Services<NotifyTemplate> {}

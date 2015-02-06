@@ -1,0 +1,1 @@
+package net.carshopping.services.front.commentType.bean;import java.io.Serializable;import net.carshopping.core.dao.page.PagerModel;public class CommentType extends net.carshopping.services.common.CommentType implements Serializable {	private static final long serialVersionUID = 1L;	public void clear() {		super.clear();	}}

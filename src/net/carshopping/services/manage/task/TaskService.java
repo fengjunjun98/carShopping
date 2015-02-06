@@ -1,0 +1,1 @@
+package net.carshopping.services.manage.task;import net.carshopping.core.Services;import net.carshopping.services.manage.task.bean.Task;public interface TaskService extends Services<Task> {}

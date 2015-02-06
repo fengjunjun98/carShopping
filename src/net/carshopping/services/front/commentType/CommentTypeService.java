@@ -1,0 +1,1 @@
+package net.carshopping.services.front.commentType;import net.carshopping.core.Services;import net.carshopping.services.front.commentType.bean.CommentType;public interface CommentTypeService extends Services<CommentType> {}
