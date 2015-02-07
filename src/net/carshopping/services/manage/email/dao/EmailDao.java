@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.email.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.email.bean.Email;public interface EmailDao extends DaoManager<Email> {}
+package net.carshopping.services.manage.email.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.email.bean.Email;public interface EmailDao extends DaoManager<Email> {}

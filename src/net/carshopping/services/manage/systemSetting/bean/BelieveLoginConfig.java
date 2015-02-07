@@ -1,9 +1,9 @@
-package net.jeeshop.services.manage.systemSetting.bean;
+package net.carshopping.services.manage.systemSetting.bean;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import net.jeeshop.core.dao.page.ClearBean;
+import net.carshopping.core.dao.page.ClearBean;
 
 
 

@@ -5,8 +5,8 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.orderdetail;
 import net.carshopping.core.BaseAction;
-import net.jeeshop.services.manage.orderdetail.OrderdetailService;
-import net.jeeshop.services.manage.orderdetail.bean.Orderdetail;
+import net.carshopping.services.manage.orderdetail.OrderdetailService;
+import net.carshopping.services.manage.orderdetail.bean.Orderdetail;
 /** 项目名称：carShopping 
  * 类名称：OrderdetailAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

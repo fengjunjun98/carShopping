@@ -80,7 +80,7 @@ public class PagerModel implements ClearBean {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see net.jeeshop.common.page.ClearBean#clear()
+	 * @see net.carshopping.common.page.ClearBean#clear()
 	 */
 	public void clear() {
 		total = 0; // 总数

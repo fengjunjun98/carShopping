@@ -4,10 +4,10 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.front.news;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.FrontContainer;
-import net.jeeshop.services.front.news.NewsService;
-import net.jeeshop.services.front.news.bean.News;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.FrontContainer;
+import net.carshopping.services.front.news.NewsService;
+import net.carshopping.services.front.news.bean.News;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

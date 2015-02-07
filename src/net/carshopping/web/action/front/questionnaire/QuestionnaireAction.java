@@ -9,12 +9,12 @@ import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.FrontContainer;
-import net.jeeshop.services.front.questionnaire.QuestionnaireService;
-import net.jeeshop.services.front.questionnaire.bean.Questionnaire;
-import net.jeeshop.services.front.questionnaireItem.QuestionnaireItemService;
-import net.jeeshop.services.front.questionnaireItem.bean.QuestionnaireItem;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.FrontContainer;
+import net.carshopping.services.front.questionnaire.QuestionnaireService;
+import net.carshopping.services.front.questionnaire.bean.Questionnaire;
+import net.carshopping.services.front.questionnaireItem.QuestionnaireItemService;
+import net.carshopping.services.front.questionnaireItem.bean.QuestionnaireItem;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.LoggerFactory;

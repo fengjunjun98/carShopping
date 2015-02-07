@@ -5,11 +5,11 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.keyvalue;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.KeyValueHelper;
-import net.jeeshop.core.oscache.FrontCache;
-import net.jeeshop.services.manage.keyvalue.KeyvalueService;
-import net.jeeshop.services.manage.keyvalue.bean.Keyvalue;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.KeyValueHelper;
+import net.carshopping.core.oscache.FrontCache;
+import net.carshopping.services.manage.keyvalue.KeyvalueService;
+import net.carshopping.services.manage.keyvalue.bean.Keyvalue;
 /** 项目名称：carShopping 
  * 类名称：KeyvalueAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

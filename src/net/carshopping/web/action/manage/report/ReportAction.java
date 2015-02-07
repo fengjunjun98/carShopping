@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.Map;
 
 import net.carshopping.core.BaseAction;
-import net.jeeshop.services.manage.order.OrderService;
-import net.jeeshop.services.manage.order.bean.Order;
-import net.jeeshop.services.manage.orderdetail.OrderdetailService;
-import net.jeeshop.services.manage.orderdetail.bean.Orderdetail;
-import net.jeeshop.services.manage.product.ProductService;
+import net.carshopping.services.manage.order.OrderService;
+import net.carshopping.services.manage.order.bean.Order;
+import net.carshopping.services.manage.orderdetail.OrderdetailService;
+import net.carshopping.services.manage.orderdetail.bean.Orderdetail;
+import net.carshopping.services.manage.product.ProductService;
 import net.carshopping.web.action.manage.order.OrderAction;
 import net.carshopping.web.action.manage.product.ProductAction;
 

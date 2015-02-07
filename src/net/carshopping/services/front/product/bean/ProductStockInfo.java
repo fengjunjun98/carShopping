@@ -1,8 +1,8 @@
-package net.jeeshop.services.front.product.bean;
+package net.carshopping.services.front.product.bean;
 
 import java.util.List;
 
-import net.jeeshop.services.manage.spec.bean.Spec;
+import net.carshopping.services.manage.spec.bean.Spec;
 
 /**
  * 商品库存对象

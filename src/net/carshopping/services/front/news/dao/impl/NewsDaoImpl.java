@@ -2,15 +2,15 @@
  * 2012-7-8
  * jqsl2012@163.com
  */
-package net.jeeshop.services.front.news.dao.impl;
+package net.carshopping.services.front.news.dao.impl;
 
 import java.util.List;
 
-import net.jeeshop.core.dao.BaseDao;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.services.front.navigation.bean.Navigation;
-import net.jeeshop.services.front.news.bean.News;
-import net.jeeshop.services.front.news.dao.NewsDao;
+import net.carshopping.core.dao.BaseDao;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.services.front.navigation.bean.Navigation;
+import net.carshopping.services.front.news.bean.News;
+import net.carshopping.services.front.news.dao.NewsDao;
 
 
 /**

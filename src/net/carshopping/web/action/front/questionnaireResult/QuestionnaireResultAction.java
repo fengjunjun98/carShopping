@@ -4,9 +4,9 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.front.questionnaireResult;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.front.questionnaireResult.QuestionnaireResultService;
-import net.jeeshop.services.front.questionnaireResult.bean.QuestionnaireResult;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.front.questionnaireResult.QuestionnaireResultService;
+import net.carshopping.services.front.questionnaireResult.bean.QuestionnaireResult;
 /** 项目名称：carShopping 
  * 类名称：QuestionnaireResultAction 
  * 问卷结果

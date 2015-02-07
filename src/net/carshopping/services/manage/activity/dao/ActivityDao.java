@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.activity.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.activity.bean.Activity;public interface ActivityDao extends DaoManager<Activity> {}
+package net.carshopping.services.manage.activity.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.activity.bean.Activity;public interface ActivityDao extends DaoManager<Activity> {}

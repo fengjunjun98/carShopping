@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.ordership;import net.jeeshop.core.Services;import net.jeeshop.services.manage.ordership.bean.Ordership;public interface OrdershipService extends Services<Ordership> {}
+package net.carshopping.services.manage.ordership;import net.carshopping.core.Services;import net.carshopping.services.manage.ordership.bean.Ordership;public interface OrdershipService extends Services<Ordership> {}

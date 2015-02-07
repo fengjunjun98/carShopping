@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.account.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.account.bean.Account;public interface AccountDao extends DaoManager<Account> {}
+package net.carshopping.services.manage.account.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.account.bean.Account;public interface AccountDao extends DaoManager<Account> {}

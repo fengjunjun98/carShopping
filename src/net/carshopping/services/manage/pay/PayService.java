@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.pay;import net.jeeshop.core.Services;import net.jeeshop.services.manage.pay.bean.Pay;public interface PayService extends Services<Pay> {}
+package net.carshopping.services.manage.pay;import net.carshopping.core.Services;import net.carshopping.services.manage.pay.bean.Pay;public interface PayService extends Services<Pay> {}

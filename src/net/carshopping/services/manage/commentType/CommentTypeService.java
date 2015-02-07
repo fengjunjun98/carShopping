@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.commentType;import net.jeeshop.core.Services;import net.jeeshop.services.manage.commentType.bean.CommentType;public interface CommentTypeService extends Services<CommentType> {}
+package net.carshopping.services.manage.commentType;import net.carshopping.core.Services;import net.carshopping.services.manage.commentType.bean.CommentType;public interface CommentTypeService extends Services<CommentType> {}

@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.account;import net.jeeshop.core.Services;import net.jeeshop.services.manage.account.bean.Account;public interface AccountService extends Services<Account> {}
+package net.carshopping.services.manage.account;import net.carshopping.core.Services;import net.carshopping.services.manage.account.bean.Account;public interface AccountService extends Services<Account> {}

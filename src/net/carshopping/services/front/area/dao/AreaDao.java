@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.area.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.area.bean.Area;public interface AreaDao extends DaoManager<Area> {}
+package net.carshopping.services.front.area.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.area.bean.Area;public interface AreaDao extends DaoManager<Area> {}

@@ -2,14 +2,14 @@
  * 2012-7-8
  * jqsl2012@163.com
  */
-package net.jeeshop.services.front.indexImg.impl;
+package net.carshopping.services.front.indexImg.impl;
 
 import java.util.List;
 
-import net.jeeshop.core.ServersManager;
-import net.jeeshop.services.front.indexImg.IndexImgService;
-import net.jeeshop.services.front.indexImg.bean.IndexImg;
-import net.jeeshop.services.front.indexImg.dao.IndexImgDao;
+import net.carshopping.core.ServersManager;
+import net.carshopping.services.front.indexImg.IndexImgService;
+import net.carshopping.services.front.indexImg.bean.IndexImg;
+import net.carshopping.services.front.indexImg.dao.IndexImgDao;
 
 
 /**

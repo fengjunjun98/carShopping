@@ -4,11 +4,11 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.accountRank;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.ManageContainer;
-import net.jeeshop.core.exception.NotThisMethod;
-import net.jeeshop.services.manage.accountRank.AccountRankService;
-import net.jeeshop.services.manage.accountRank.bean.AccountRank;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.ManageContainer;
+import net.carshopping.core.exception.NotThisMethod;
+import net.carshopping.services.manage.accountRank.AccountRankService;
+import net.carshopping.services.manage.accountRank.bean.AccountRank;
 /** 项目名称：carShopping 
  * 类名称：AccountRankAction 
  * 会员等级

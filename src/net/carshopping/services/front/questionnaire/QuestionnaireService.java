@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.questionnaire;import net.jeeshop.core.Services;import net.jeeshop.services.front.questionnaire.bean.Questionnaire;public interface QuestionnaireService extends Services<Questionnaire> {}
+package net.carshopping.services.front.questionnaire;import net.carshopping.core.Services;import net.carshopping.services.front.questionnaire.bean.Questionnaire;public interface QuestionnaireService extends Services<Questionnaire> {}

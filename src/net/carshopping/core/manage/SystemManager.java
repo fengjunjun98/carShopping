@@ -1,4 +1,4 @@
-//package net.jeeshop.core.manage;
+//package net.carshopping.core.manage;
 //
 //import java.io.IOException;
 //import java.util.HashMap;
@@ -10,14 +10,14 @@
 //
 //import javax.servlet.http.HttpServletRequest;
 //
-//import net.jeeshop.core.listener.SystemListener;
-//import net.jeeshop.services.common.Area;
-//import net.jeeshop.services.common.Catalog;
-//import net.jeeshop.services.common.NotifyTemplate;
-//import net.jeeshop.services.common.Product;
-//import net.jeeshop.services.common.SystemSetting;
-//import net.jeeshop.services.manage.order.bean.OrdersReport;
-//import net.jeeshop.services.manage.oss.bean.AliyunOSS;
+//import net.carshopping.core.listener.SystemListener;
+//import net.carshopping.services.common.Area;
+//import net.carshopping.services.common.Catalog;
+//import net.carshopping.services.common.NotifyTemplate;
+//import net.carshopping.services.common.Product;
+//import net.carshopping.services.common.SystemSetting;
+//import net.carshopping.services.manage.order.bean.OrdersReport;
+//import net.carshopping.services.manage.oss.bean.AliyunOSS;
 //
 ///**
 // * 系统管理类，负责管理system.properties的东东

@@ -1,6 +1,6 @@
-package net.jeeshop.services.front.order.bean;
+package net.carshopping.services.front.order.bean;
 
-import net.jeeshop.core.dao.page.ClearBean;
+import net.carshopping.core.dao.page.ClearBean;
 
 /**
  * 订单简单报表信息

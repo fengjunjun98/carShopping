@@ -11,12 +11,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.front.SystemManager;
-import net.jeeshop.core.oscache.FrontCache;
-import net.jeeshop.core.util.CreateAreaUtil;
-import net.jeeshop.services.manage.area.AreaService;
-import net.jeeshop.services.manage.area.bean.Area;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.front.SystemManager;
+import net.carshopping.core.oscache.FrontCache;
+import net.carshopping.core.util.CreateAreaUtil;
+import net.carshopping.services.manage.area.AreaService;
+import net.carshopping.services.manage.area.bean.Area;
 import net.sf.json.JSONArray;
 
 import org.apache.commons.io.FileUtils;
@@ -85,7 +85,7 @@ public class AreaAction extends BaseAction<Area> {
 	 */
 	public String getAreaTree() throws IOException{
 //		List<Area> areaList = areaService.getAreaTree("0");
-		Collection<net.jeeshop.services.front.area.bean.Area> areaList = SystemManager.areaMap.values();
+		Collection<net.carshopping.services.front.area.bean.Area> areaList = SystemManager.areaMap.values();
 		
 		JSONArray json = JSONArray.fromObject(areaList);
 		String jsonStr = json.toString();

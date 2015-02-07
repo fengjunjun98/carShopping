@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.comment.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.comment.bean.Comment;public interface CommentDao extends DaoManager<Comment> {	int selectCount(String orderid);}
+package net.carshopping.services.front.comment.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.comment.bean.Comment;public interface CommentDao extends DaoManager<Comment> {	int selectCount(String orderid);}

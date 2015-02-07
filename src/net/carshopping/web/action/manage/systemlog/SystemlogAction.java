@@ -5,8 +5,8 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.systemlog;
 import net.carshopping.core.BaseAction;
-import net.jeeshop.services.manage.systemlog.SystemlogService;
-import net.jeeshop.services.manage.systemlog.bean.Systemlog;
+import net.carshopping.services.manage.systemlog.SystemlogService;
+import net.carshopping.services.manage.systemlog.bean.Systemlog;
 
 import org.apache.commons.lang.StringUtils;
 /** 项目名称：carShopping 

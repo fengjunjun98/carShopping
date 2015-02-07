@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.systemSetting.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.systemSetting.bean.SystemSetting;public interface SystemSettingDao extends DaoManager<SystemSetting> {}
+package net.carshopping.services.manage.systemSetting.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.systemSetting.bean.SystemSetting;public interface SystemSettingDao extends DaoManager<SystemSetting> {}

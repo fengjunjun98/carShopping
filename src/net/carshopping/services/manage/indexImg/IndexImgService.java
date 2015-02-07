@@ -2,13 +2,13 @@
  * 2012-7-8
  * jqsl2012@163.com
  */
-package net.jeeshop.services.manage.indexImg;
+package net.carshopping.services.manage.indexImg;
 
 import java.util.List;
 
-import net.jeeshop.core.Services;
-import net.jeeshop.services.manage.indexImg.bean.IndexImg;
-import net.jeeshop.services.manage.product.bean.Product;
+import net.carshopping.core.Services;
+import net.carshopping.services.manage.indexImg.bean.IndexImg;
+import net.carshopping.services.manage.product.bean.Product;
 
 
 /**

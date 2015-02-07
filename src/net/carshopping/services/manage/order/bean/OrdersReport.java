@@ -1,4 +1,4 @@
-package net.jeeshop.services.manage.order.bean;
+package net.carshopping.services.manage.order.bean;
 
 /**
  * 后台首页综合报表统计数据

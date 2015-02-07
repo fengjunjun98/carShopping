@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.systemSetting;import net.jeeshop.core.Services;import net.jeeshop.services.manage.systemSetting.bean.SystemSetting;public interface SystemSettingService extends Services<SystemSetting> {}
+package net.carshopping.services.manage.systemSetting;import net.carshopping.core.Services;import net.carshopping.services.manage.systemSetting.bean.SystemSetting;public interface SystemSettingService extends Services<SystemSetting> {}

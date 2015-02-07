@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.orderdetail.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.orderdetail.bean.Orderdetail;public interface OrderdetailDao extends DaoManager<Orderdetail> {	int selectCount(String orderID);}
+package net.carshopping.services.front.orderdetail.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.orderdetail.bean.Orderdetail;public interface OrderdetailDao extends DaoManager<Orderdetail> {	int selectCount(String orderID);}

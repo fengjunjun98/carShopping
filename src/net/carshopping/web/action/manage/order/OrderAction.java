@@ -8,24 +8,24 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.ManageContainer;
-import net.jeeshop.core.KeyValueHelper;
-import net.jeeshop.core.exception.UpdateOrderStatusException;
-import net.jeeshop.core.front.SystemManager;
-import net.jeeshop.core.system.bean.User;
-import net.jeeshop.services.front.area.bean.Area;
-import net.jeeshop.services.manage.order.OrderService;
-import net.jeeshop.services.manage.order.bean.Order;
-import net.jeeshop.services.manage.orderdetail.OrderdetailService;
-import net.jeeshop.services.manage.orderdetail.bean.Orderdetail;
-import net.jeeshop.services.manage.orderlog.OrderlogService;
-import net.jeeshop.services.manage.orderlog.bean.Orderlog;
-import net.jeeshop.services.manage.orderpay.OrderpayService;
-import net.jeeshop.services.manage.orderpay.bean.Orderpay;
-import net.jeeshop.services.manage.ordership.OrdershipService;
-import net.jeeshop.services.manage.ordership.bean.Ordership;
-import net.jeeshop.services.manage.product.ProductService;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.ManageContainer;
+import net.carshopping.core.KeyValueHelper;
+import net.carshopping.core.exception.UpdateOrderStatusException;
+import net.carshopping.core.front.SystemManager;
+import net.carshopping.core.system.bean.User;
+import net.carshopping.services.front.area.bean.Area;
+import net.carshopping.services.manage.order.OrderService;
+import net.carshopping.services.manage.order.bean.Order;
+import net.carshopping.services.manage.orderdetail.OrderdetailService;
+import net.carshopping.services.manage.orderdetail.bean.Orderdetail;
+import net.carshopping.services.manage.orderlog.OrderlogService;
+import net.carshopping.services.manage.orderlog.bean.Orderlog;
+import net.carshopping.services.manage.orderpay.OrderpayService;
+import net.carshopping.services.manage.orderpay.bean.Orderpay;
+import net.carshopping.services.manage.ordership.OrdershipService;
+import net.carshopping.services.manage.ordership.bean.Ordership;
+import net.carshopping.services.manage.product.ProductService;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.LoggerFactory;
@@ -57,7 +57,7 @@ import com.alibaba.fastjson.JSON;
 //		private Order order;
 		private List<Orderdetail> orderdetailList;//订单项列表
 		private String optionMsg;//操作消息提示
-		private List<net.jeeshop.services.front.area.bean.Area> areaList;//区域列表
+		private List<net.carshopping.services.front.area.bean.Area> areaList;//区域列表
 		
 		public List<Area> getAreaList() {
 			return areaList;
@@ -617,10 +617,10 @@ import com.alibaba.fastjson.JSON;
 			//获取区域列表
 			if(StringUtils.isNotBlank(ordership.getArea())){
 //						address.getArea()
-				net.jeeshop.services.front.area.bean.Area area = SystemManager.areaMap.get(ordership.getProvinceCode());
+				net.carshopping.services.front.area.bean.Area area = SystemManager.areaMap.get(ordership.getProvinceCode());
 				if(area!=null && area.getChildren()!=null && area.getChildren().size()>0){
 					for(int i=0;i<area.getChildren().size();i++){
-						net.jeeshop.services.front.area.bean.Area city = area.getChildren().get(i);
+						net.carshopping.services.front.area.bean.Area city = area.getChildren().get(i);
 						if(city.getCode().equals(ordership.getCityCode())){
 							
 //							logger.error("address.getCity()="+address.getCity());
@@ -691,7 +691,7 @@ import com.alibaba.fastjson.JSON;
 //			Area area = new Area();
 //			area.setCode(provinceCode);
 			if(SystemManager.areaMap!=null && SystemManager.areaMap.size()>0){
-				net.jeeshop.services.front.area.bean.Area areaInfo = SystemManager.areaMap.get(provinceCode);
+				net.carshopping.services.front.area.bean.Area areaInfo = SystemManager.areaMap.get(provinceCode);
 				
 				logger.error("areaInfo = " + areaInfo);
 				
@@ -723,13 +723,13 @@ import com.alibaba.fastjson.JSON;
 			}
 			
 			if(SystemManager.areaMap!=null && SystemManager.areaMap.size()>0){
-				net.jeeshop.services.front.area.bean.Area city = SystemManager.areaMap.get(provinceCode);
+				net.carshopping.services.front.area.bean.Area city = SystemManager.areaMap.get(provinceCode);
 				
 				logger.error("areaInfo = " + city);
 				
 				if(city!=null && city.getChildren()!=null && city.getChildren().size()>0){
 					for(int i=0;i<city.getChildren().size();i++){
-						net.jeeshop.services.front.area.bean.Area item = city.getChildren().get(i);
+						net.carshopping.services.front.area.bean.Area item = city.getChildren().get(i);
 						if(item.getCode().equals(cityCode)){
 							if(item.getChildren()!=null && item.getChildren().size()>0){
 								String jsonStr = JSON.toJSONString(item.getChildren());

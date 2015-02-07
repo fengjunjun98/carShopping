@@ -7,8 +7,8 @@ package net.carshopping.web.action.manage.indexImg;
 import java.io.File;
 import java.io.IOException;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.indexImg.bean.IndexImg;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.indexImg.bean.IndexImg;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.struts2.ServletActionContext;

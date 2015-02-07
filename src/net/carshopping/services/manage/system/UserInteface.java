@@ -1,8 +1,8 @@
-package net.jeeshop.services.manage.system;
+package net.carshopping.services.manage.system;
 
-import net.jeeshop.core.Services;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.core.system.bean.User;
+import net.carshopping.core.Services;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.core.system.bean.User;
 
 public interface UserInteface extends Services<User> {
 	/**

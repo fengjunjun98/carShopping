@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.orderlog;import net.jeeshop.core.Services;import net.jeeshop.services.front.orderlog.bean.Orderlog;public interface OrderlogService extends Services<Orderlog> {}
+package net.carshopping.services.front.orderlog;import net.carshopping.core.Services;import net.carshopping.services.front.orderlog.bean.Orderlog;public interface OrderlogService extends Services<Orderlog> {}

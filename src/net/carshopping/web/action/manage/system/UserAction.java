@@ -19,11 +19,11 @@ import net.carshopping.core.oscache.ManageCache;
 import net.carshopping.core.system.bean.User;
 import net.carshopping.core.util.AddressUtils;
 import net.carshopping.core.util.MD5;
-import net.jeeshop.services.front.account.bean.Account;
-import net.jeeshop.services.manage.system.impl.RoleService;
-import net.jeeshop.services.manage.system.impl.UserService;
-import net.jeeshop.services.manage.systemlog.SystemlogService;
-import net.jeeshop.services.manage.systemlog.bean.Systemlog;
+import net.carshopping.services.front.account.bean.Account;
+import net.carshopping.services.manage.system.impl.RoleService;
+import net.carshopping.services.manage.system.impl.UserService;
+import net.carshopping.services.manage.systemlog.SystemlogService;
+import net.carshopping.services.manage.systemlog.bean.Systemlog;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.LoggerFactory;

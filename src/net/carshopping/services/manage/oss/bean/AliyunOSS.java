@@ -1,4 +1,4 @@
-package net.jeeshop.services.manage.oss.bean;
+package net.carshopping.services.manage.oss.bean;
 
 /**
  * 阿里云OSS

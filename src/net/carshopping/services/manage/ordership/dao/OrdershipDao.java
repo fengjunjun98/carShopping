@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.ordership.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.ordership.bean.Ordership;public interface OrdershipDao extends DaoManager<Ordership> {}
+package net.carshopping.services.manage.ordership.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.ordership.bean.Ordership;public interface OrdershipDao extends DaoManager<Ordership> {}

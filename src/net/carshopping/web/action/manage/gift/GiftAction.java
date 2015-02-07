@@ -6,11 +6,11 @@
 package net.carshopping.web.action.manage.gift;
 import org.apache.commons.lang.StringUtils;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.ManageContainer;
-import net.jeeshop.core.system.bean.User;
-import net.jeeshop.services.manage.gift.GiftService;
-import net.jeeshop.services.manage.gift.bean.Gift;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.ManageContainer;
+import net.carshopping.core.system.bean.User;
+import net.carshopping.services.manage.gift.GiftService;
+import net.carshopping.services.manage.gift.bean.Gift;
 /** 项目名称：carShopping 
  * 类名称：GiftAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

@@ -1,11 +1,11 @@
-package net.jeeshop.services.manage.news.bean;
+package net.carshopping.services.manage.news.bean;
 
 import java.io.Serializable;
 
-import net.jeeshop.core.dao.page.PagerModel;
+import net.carshopping.core.dao.page.PagerModel;
 
 
-public class News extends net.jeeshop.services.common.News implements Serializable {
+public class News extends net.carshopping.services.common.News implements Serializable {
 	/**
 	 * 查询条件
 	 */

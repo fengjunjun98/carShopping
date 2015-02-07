@@ -23,8 +23,8 @@ import net.carshopping.core.system.bean.MenuItem;
 import net.carshopping.core.system.bean.MenuType;
 import net.carshopping.core.system.bean.Privilege;
 import net.carshopping.core.system.bean.User;
-import net.jeeshop.services.manage.system.impl.MenuService;
-import net.jeeshop.services.manage.system.impl.PrivilegeService;
+import net.carshopping.services.manage.system.impl.MenuService;
+import net.carshopping.services.manage.system.impl.PrivilegeService;
 import net.sf.json.JSONArray;
 
 /** 项目名称：carShopping 

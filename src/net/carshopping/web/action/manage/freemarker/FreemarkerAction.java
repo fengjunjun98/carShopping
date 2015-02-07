@@ -22,21 +22,21 @@ package net.carshopping.web.action.manage.freemarker;
 //* 2012-7-8
 //* jqsl2012@163.com
 //*/
-//package net.jeeshop.web.action.freemarker;
+//package net.carshopping.web.action.freemarker;
 //
 //import java.io.IOException;
 //import java.util.List;
 //
 //import org.apache.commons.lang.NullArgumentException;
 //
-//import net.jeeshop.core.Container;
-//import net.jeeshop.core.freemarker.FreemarkerHelper;
-//import net.jeeshop.services.account.bean.Account;
-//import net.jeeshop.services.news.bean.News;
-//import net.jeeshop.services.version.VersionService;
-//import net.jeeshop.services.version.bean.Version;
-//import net.jeeshop.services.version.impl.VersionServiceImpl;
-//import net.jeeshop.web.action.system.BaseAction;
+//import net.carshopping.core.Container;
+//import net.carshopping.core.freemarker.FreemarkerHelper;
+//import net.carshopping.services.account.bean.Account;
+//import net.carshopping.services.news.bean.News;
+//import net.carshopping.services.version.VersionService;
+//import net.carshopping.services.version.bean.Version;
+//import net.carshopping.services.version.impl.VersionServiceImpl;
+//import net.carshopping.web.action.system.BaseAction;
 //
 ///**
 //* 网站会员action

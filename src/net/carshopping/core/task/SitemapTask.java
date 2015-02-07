@@ -34,7 +34,7 @@ public class SitemapTask implements Runnable {
 	}
 
 	private void createSiteMap() {
-		String websizePath = "D:\\workspace5\\jeeshop\\trunk\\jeeshop\\web\\";
+		String websizePath = "D:\\workspace5\\carshopping\\trunk\\carshopping\\web\\";
 		String priority = "0.75";// 级 别
 		String changefreq = "daily";// "weekly";//频 率
 		String xmlpath = "e:/sitemap.xml";// sitemap名称以及位置

@@ -5,9 +5,9 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.navigation;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.navigation.NavigationService;
-import net.jeeshop.services.manage.navigation.bean.Navigation;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.navigation.NavigationService;
+import net.carshopping.services.manage.navigation.bean.Navigation;
 /** 项目名称：carShopping 
  * 类名称：NavigationAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

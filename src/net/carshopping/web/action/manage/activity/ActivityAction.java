@@ -4,10 +4,10 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.activity;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.util.DateTimeUtil;
-import net.jeeshop.services.manage.activity.ActivityService;
-import net.jeeshop.services.manage.activity.bean.Activity;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.util.DateTimeUtil;
+import net.carshopping.services.manage.activity.ActivityService;
+import net.carshopping.services.manage.activity.bean.Activity;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

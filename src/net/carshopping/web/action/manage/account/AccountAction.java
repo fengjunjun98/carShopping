@@ -6,12 +6,12 @@
 package net.carshopping.web.action.manage.account;
 import java.io.IOException;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.KeyValueHelper;
-import net.jeeshop.core.oscache.FrontCache;
-import net.jeeshop.core.util.MD5;
-import net.jeeshop.services.manage.account.AccountService;
-import net.jeeshop.services.manage.account.bean.Account;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.KeyValueHelper;
+import net.carshopping.core.oscache.FrontCache;
+import net.carshopping.core.util.MD5;
+import net.carshopping.services.manage.account.AccountService;
+import net.carshopping.services.manage.account.bean.Account;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -161,8 +161,8 @@ public class AccountAction extends BaseAction<Account> {
 	public String testUpdateScoure(){
 		logger.error("testUpdateScoure...");
 		WebApplicationContext app = WebApplicationContextUtils.getWebApplicationContext(getRequest().getSession().getServletContext());
-		net.jeeshop.services.front.account.AccountService accountServiceFront = (net.jeeshop.services.front.account.AccountService) app.getBean("accountServiceFront");
-		net.jeeshop.services.front.account.bean.Account acc = new net.jeeshop.services.front.account.bean.Account();
+		net.carshopping.services.front.account.AccountService accountServiceFront = (net.carshopping.services.front.account.AccountService) app.getBean("accountServiceFront");
+		net.carshopping.services.front.account.bean.Account acc = new net.carshopping.services.front.account.bean.Account();
 		acc.setAccount("test1");
 		acc.setAddScore(1200);
 		accountServiceFront.updateScore(acc);

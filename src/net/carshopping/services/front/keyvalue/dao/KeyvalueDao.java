@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.keyvalue.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.keyvalue.bean.Keyvalue;public interface KeyvalueDao extends DaoManager<Keyvalue> {}
+package net.carshopping.services.front.keyvalue.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.keyvalue.bean.Keyvalue;public interface KeyvalueDao extends DaoManager<Keyvalue> {}

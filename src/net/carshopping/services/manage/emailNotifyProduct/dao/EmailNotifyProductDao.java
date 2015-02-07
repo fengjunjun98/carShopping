@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.emailNotifyProduct.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.emailNotifyProduct.bean.EmailNotifyProduct;public interface EmailNotifyProductDao extends DaoManager<EmailNotifyProduct> {}
+package net.carshopping.services.manage.emailNotifyProduct.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.emailNotifyProduct.bean.EmailNotifyProduct;public interface EmailNotifyProductDao extends DaoManager<EmailNotifyProduct> {}

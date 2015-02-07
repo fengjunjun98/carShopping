@@ -4,9 +4,9 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.advert;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.advert.AdvertService;
-import net.jeeshop.services.manage.advert.bean.Advert;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.advert.AdvertService;
+import net.carshopping.services.manage.advert.bean.Advert;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

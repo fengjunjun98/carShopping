@@ -7,14 +7,14 @@ package net.carshopping.web.action.manage.news;
 import java.io.IOException;
 import java.util.List;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.ManageContainer;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.core.system.bean.User;
-import net.jeeshop.services.manage.catalog.CatalogService;
-import net.jeeshop.services.manage.indexImg.IndexImgService;
-import net.jeeshop.services.manage.news.NewsService;
-import net.jeeshop.services.manage.news.bean.News;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.ManageContainer;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.core.system.bean.User;
+import net.carshopping.services.manage.catalog.CatalogService;
+import net.carshopping.services.manage.indexImg.IndexImgService;
+import net.carshopping.services.manage.news.NewsService;
+import net.carshopping.services.manage.news.bean.News;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

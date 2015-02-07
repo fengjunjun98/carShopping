@@ -7,9 +7,9 @@ package net.carshopping.web.action.manage.attribute;
 import java.io.IOException;
 import java.util.List;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.attribute.AttributeService;
-import net.jeeshop.services.manage.attribute.bean.Attribute;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.attribute.AttributeService;
+import net.carshopping.services.manage.attribute.bean.Attribute;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.notifyTemplate.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.notifyTemplate.bean.NotifyTemplate;public interface NotifyTemplateDao extends DaoManager<NotifyTemplate> {}
+package net.carshopping.services.front.notifyTemplate.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.notifyTemplate.bean.NotifyTemplate;public interface NotifyTemplateDao extends DaoManager<NotifyTemplate> {}

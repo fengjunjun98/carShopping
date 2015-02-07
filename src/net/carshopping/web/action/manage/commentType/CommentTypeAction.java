@@ -4,13 +4,13 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.commentType;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.KeyValueHelper;
-import net.jeeshop.core.ManageContainer;
-import net.jeeshop.core.exception.NotThisMethod;
-import net.jeeshop.services.manage.comment.bean.Comment;
-import net.jeeshop.services.manage.commentType.CommentTypeService;
-import net.jeeshop.services.manage.commentType.bean.CommentType;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.KeyValueHelper;
+import net.carshopping.core.ManageContainer;
+import net.carshopping.core.exception.NotThisMethod;
+import net.carshopping.services.manage.comment.bean.Comment;
+import net.carshopping.services.manage.commentType.CommentTypeService;
+import net.carshopping.services.manage.commentType.bean.CommentType;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

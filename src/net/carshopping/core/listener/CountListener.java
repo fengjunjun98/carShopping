@@ -1,4 +1,4 @@
-//package net.jeeshop.core.listener;
+//package net.carshopping.core.listener;
 //
 //import java.util.Date;
 //
@@ -6,9 +6,9 @@
 //import javax.servlet.http.HttpSessionEvent;
 //import javax.servlet.http.HttpSessionListener;
 //
-//import net.jeeshop.core.util.CountUtil;
-//import net.jeeshop.services.manage.sessionCount.SessionCountService;
-//import net.jeeshop.services.manage.sessionCount.bean.SessionCount;
+//import net.carshopping.core.util.CountUtil;
+//import net.carshopping.services.manage.sessionCount.SessionCountService;
+//import net.carshopping.services.manage.sessionCount.bean.SessionCount;
 //
 //import org.apache.struts2.ServletActionContext;
 //import org.springframework.web.context.WebApplicationContext;

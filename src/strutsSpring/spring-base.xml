@@ -13,17 +13,17 @@
            http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 
 	<!-- 基础的DAO，所有的业务逻辑实现类必须注入此dao才能进行数据库操作 -->
-	<bean id="baseDao" class="net.jeeshop.core.dao.BaseDao">
+	<bean id="baseDao" class="net.carshopping.core.dao.BaseDao">
 		<property name="sqlSessionFactory" ref="sessionFactory"></property>
 	</bean>
 
 	<!-- 以下是系统的核心，包括：用户、角色、权限、资源 等等模块 -->
 
 	<!-- 用户 -->
-	<bean id="userServiceManage" class="net.jeeshop.services.manage.system.impl.UserService">
+	<bean id="userServiceManage" class="net.carshopping.services.manage.system.impl.UserService">
 		<property name="dao" ref="baseDao"></property>
 	</bean>
-	<bean id="userActionManage" class="net.jeeshop.web.action.manage.system.UserAction" >
+	<bean id="userActionManage" class="net.carshopping.web.action.manage.system.UserAction" >
 		<property name="server" ref="userServiceManage"></property>
 		<property name="userService" ref="userServiceManage"></property>
 		<property name="roleService" ref="roleServiceManage"></property>
@@ -32,28 +32,28 @@
 	</bean>
 
 	<!-- 角色 -->
-	<bean id="roleServiceManage" class=" net.jeeshop.services.manage.system.impl.RoleService">
+	<bean id="roleServiceManage" class=" net.carshopping.services.manage.system.impl.RoleService">
 		<property name="dao" ref="baseDao"></property>
 		<property name="privilegeService" ref="privilegeServiceManage"></property>
 	</bean>
-	<bean id="roleActionManage" class=" net.jeeshop.web.action.manage.system.RoleAction">
+	<bean id="roleActionManage" class=" net.carshopping.web.action.manage.system.RoleAction">
 		<property name="roleService" ref="roleServiceManage"></property>
 	</bean>
 
 	<!-- 资源 -->
-	<bean id="menuServiceManage" class=" net.jeeshop.services.manage.system.impl.MenuService">
+	<bean id="menuServiceManage" class=" net.carshopping.services.manage.system.impl.MenuService">
 		<property name="dao" ref="baseDao"></property>
 	</bean>
-	<bean id="menuActionManage" class=" net.jeeshop.web.action.manage.system.MenuAction">
+	<bean id="menuActionManage" class=" net.carshopping.web.action.manage.system.MenuAction">
 		<property name="menuService" ref="menuServiceManage"></property>
 		<property name="privilegeService" ref="privilegeServiceManage"></property>
 	</bean>
 
 	<!-- 权限 -->
-	<bean id="privilegeServiceManage" class="  net.jeeshop.services.manage.system.impl.PrivilegeService">
+	<bean id="privilegeServiceManage" class="  net.carshopping.services.manage.system.impl.PrivilegeService">
 		<property name="dao" ref="baseDao"></property>
 	</bean>
-	<bean id="privilegeActionManage" class="net.jeeshop.web.action.manage.system.PrivilegeAction">
+	<bean id="privilegeActionManage" class="net.carshopping.web.action.manage.system.PrivilegeAction">
 		<property name="privilegeService" ref="privilegeServiceManage"></property>
 	</bean>
 </beans>

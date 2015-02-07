@@ -2,14 +2,14 @@
  * 2012-7-8
  * jqsl2012@163.com
  */
-package net.jeeshop.services.manage.news.impl;
+package net.carshopping.services.manage.news.impl;
 
 import java.util.List;
 
-import net.jeeshop.core.ServersManager;
-import net.jeeshop.services.manage.news.NewsService;
-import net.jeeshop.services.manage.news.bean.News;
-import net.jeeshop.services.manage.news.dao.NewsDao;
+import net.carshopping.core.ServersManager;
+import net.carshopping.services.manage.news.NewsService;
+import net.carshopping.services.manage.news.bean.News;
+import net.carshopping.services.manage.news.dao.NewsDao;
 
 
 /**

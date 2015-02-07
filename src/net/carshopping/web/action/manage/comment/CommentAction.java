@@ -4,10 +4,10 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.comment;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.ManageContainer;
-import net.jeeshop.services.manage.comment.CommentService;
-import net.jeeshop.services.manage.comment.bean.Comment;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.ManageContainer;
+import net.carshopping.services.manage.comment.CommentService;
+import net.carshopping.services.manage.comment.bean.Comment;
 
 import org.apache.commons.lang.StringUtils;
 

@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.hotquery.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.hotquery.bean.Hotquery;public interface HotqueryDao extends DaoManager<Hotquery> {}
+package net.carshopping.services.manage.hotquery.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.hotquery.bean.Hotquery;public interface HotqueryDao extends DaoManager<Hotquery> {}

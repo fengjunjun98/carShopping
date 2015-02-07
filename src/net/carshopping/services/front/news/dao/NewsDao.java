@@ -2,12 +2,12 @@
  * 2012-7-8
  * jqsl2012@163.com
  */
-package net.jeeshop.services.front.news.dao;
+package net.carshopping.services.front.news.dao;
 
 import java.util.List;
 
-import net.jeeshop.core.DaoManager;
-import net.jeeshop.services.front.news.bean.News;
+import net.carshopping.core.DaoManager;
+import net.carshopping.services.front.news.bean.News;
 
 
 /**

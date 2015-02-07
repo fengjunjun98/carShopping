@@ -22,9 +22,9 @@ import net.carshopping.core.dao.page.PagerModel;
 
 
 /**
- * ALTER TABLE `jeeshop`.`t_activity` ADD COLUMN `activityType` CHAR(1) NULL  AFTER `productID` ;
+ * ALTER TABLE `carshopping`.`t_activity` ADD COLUMN `activityType` CHAR(1) NULL  AFTER `productID` ;
  * 
- * ALTER TABLE `jeeshop`.`t_activity` ADD COLUMN `score` INT NULL  AFTER `activityType` , ADD COLUMN `minGroupCount` INT NULL  AFTER `score` ;
+ * ALTER TABLE `carshopping`.`t_activity` ADD COLUMN `score` INT NULL  AFTER `activityType` , ADD COLUMN `minGroupCount` INT NULL  AFTER `score` ;
  * @author Administrator
  *
  */

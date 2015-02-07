@@ -5,8 +5,8 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.orderlog;
 import net.carshopping.core.BaseAction;
-import net.jeeshop.services.manage.orderlog.OrderlogService;
-import net.jeeshop.services.manage.orderlog.bean.Orderlog;
+import net.carshopping.services.manage.orderlog.OrderlogService;
+import net.carshopping.services.manage.orderlog.bean.Orderlog;
 /** 项目名称：carShopping 
  * 类名称：OrderlogAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

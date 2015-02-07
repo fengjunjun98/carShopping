@@ -1,10 +1,10 @@
-package net.jeeshop.services.manage.indexImg.bean;
+package net.carshopping.services.manage.indexImg.bean;
 
 import java.io.Serializable;
 
-import net.jeeshop.core.dao.page.PagerModel;
+import net.carshopping.core.dao.page.PagerModel;
 
-public class IndexImg extends net.jeeshop.services.common.IndexImg implements Serializable {
+public class IndexImg extends net.carshopping.services.common.IndexImg implements Serializable {
 
 	@Override
 	public void clear() {

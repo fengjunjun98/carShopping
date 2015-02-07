@@ -12,8 +12,8 @@ import org.apache.commons.lang.StringUtils;
 
 import net.carshopping.core.BaseAction;
 import net.carshopping.core.TaskManager;
-import net.jeeshop.services.manage.task.TaskService;
-import net.jeeshop.services.manage.task.bean.Task;
+import net.carshopping.services.manage.task.TaskService;
+import net.carshopping.services.manage.task.bean.Task;
 /** 项目名称：carShopping 
  * 类名称：TaskAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

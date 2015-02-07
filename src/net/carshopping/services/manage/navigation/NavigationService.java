@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.navigation;import net.jeeshop.core.Services;import net.jeeshop.services.manage.navigation.bean.Navigation;public interface NavigationService extends Services<Navigation> {}
+package net.carshopping.services.manage.navigation;import net.carshopping.core.Services;import net.carshopping.services.manage.navigation.bean.Navigation;public interface NavigationService extends Services<Navigation> {}

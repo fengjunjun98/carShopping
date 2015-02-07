@@ -14,9 +14,9 @@ import java.util.Set;
 import net.carshopping.core.BaseAction;
 import net.carshopping.core.ManageContainer;
 import net.carshopping.core.oscache.FrontCache;
-import net.jeeshop.services.manage.systemSetting.SystemSettingService;
-import net.jeeshop.services.manage.systemSetting.bean.BelieveLoginInfo;
-import net.jeeshop.services.manage.systemSetting.bean.SystemSetting;
+import net.carshopping.services.manage.systemSetting.SystemSettingService;
+import net.carshopping.services.manage.systemSetting.bean.BelieveLoginInfo;
+import net.carshopping.services.manage.systemSetting.bean.SystemSetting;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.task.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.task.bean.Task;public interface TaskDao extends DaoManager<Task> {}
+package net.carshopping.services.manage.task.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.task.bean.Task;public interface TaskDao extends DaoManager<Task> {}

@@ -1,4 +1,4 @@
-package net.jeeshop.services.front.product.bean;
+package net.carshopping.services.front.product.bean;
 
 public class ProductSpecInfo {
 	private String id;

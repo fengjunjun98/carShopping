@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.navigation.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.navigation.bean.Navigation;public interface NavigationDao extends DaoManager<Navigation> {}
+package net.carshopping.services.front.navigation.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.navigation.bean.Navigation;public interface NavigationDao extends DaoManager<Navigation> {}

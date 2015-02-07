@@ -10,8 +10,8 @@ import net.carshopping.core.Services;
 import net.carshopping.core.exception.NotThisMethod;
 import net.carshopping.core.system.bean.Role;
 import net.carshopping.core.system.bean.User;
-import net.jeeshop.services.manage.system.impl.MenuService;
-import net.jeeshop.services.manage.system.impl.RoleService;
+import net.carshopping.services.manage.system.impl.MenuService;
+import net.carshopping.services.manage.system.impl.RoleService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.systemlog.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.systemlog.bean.Systemlog;public interface SystemlogDao extends DaoManager<Systemlog> {}
+package net.carshopping.services.front.systemlog.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.systemlog.bean.Systemlog;public interface SystemlogDao extends DaoManager<Systemlog> {}

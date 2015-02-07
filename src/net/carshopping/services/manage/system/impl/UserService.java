@@ -1,11 +1,11 @@
-package net.jeeshop.services.manage.system.impl;
+package net.carshopping.services.manage.system.impl;
 
 import java.util.List;
 
-import net.jeeshop.core.dao.BaseDao;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.core.system.bean.User;
-import net.jeeshop.services.manage.system.UserInteface;
+import net.carshopping.core.dao.BaseDao;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.core.system.bean.User;
+import net.carshopping.services.manage.system.UserInteface;
 
 
 /**

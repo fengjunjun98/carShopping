@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.systemlog;import net.jeeshop.core.Services;import net.jeeshop.services.front.systemlog.bean.Systemlog;public interface SystemlogService extends Services<Systemlog> {}
+package net.carshopping.services.front.systemlog;import net.carshopping.core.Services;import net.carshopping.services.front.systemlog.bean.Systemlog;public interface SystemlogService extends Services<Systemlog> {}

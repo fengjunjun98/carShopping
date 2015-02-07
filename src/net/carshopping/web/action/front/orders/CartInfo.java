@@ -8,10 +8,10 @@ import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.jeeshop.core.dao.page.ClearBean;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.services.front.address.bean.Address;
-import net.jeeshop.services.front.product.bean.Product;
+import net.carshopping.core.dao.page.ClearBean;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.services.front.address.bean.Address;
+import net.carshopping.services.front.product.bean.Product;
 /** 项目名称：carShopping 
  * 类名称：CartInfo 
   * 购物车对象，独立出此对象是为了以后的方便操作，当业务进行扩展的时候不会导致系统混乱。

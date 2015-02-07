@@ -6,7 +6,7 @@
 <struts>
 	
 	<!-- 会员 -->
-	<package name="accountFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="accountFront" namespace="/" extends="struts-carshopping-front">
 		<action name="account" class="accountActionFront">
 <!-- 			<interceptor-ref name="token"/> -->
 			<result name="toIndex" type="redirect">/</result>
@@ -61,7 +61,7 @@
 	</package>
 	
 	<!-- 购物车 -->
-	<package name="cartFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="cartFront" namespace="/" extends="struts-carshopping-front">
 		<action name="cart" class="cartActionFront">
 			<result name="cart">/cart.jsp</result>
 			<result name="toLogin">/user/login.jsp</result>
@@ -70,7 +70,7 @@
 	</package>
 	
 	<!-- 产品 -->
-	<package name="productFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="productFront" namespace="/" extends="struts-carshopping-front">
 		<action name="product" class="productActionFront">
 			<result name="toLogin" type="redirect">login.jsp</result>
 			<result name="productList">productList.jsp</result>
@@ -88,7 +88,7 @@
 	</package>
 	
 	<!-- 订单 -->
-	<package name="ordersFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="ordersFront" namespace="/" extends="struts-carshopping-front">
 		<action name="orders" class="ordersActionFront">
 <!-- 			<result name="toLogin" type="redirect">login.jsp</result> -->
 			<result name="toLogin">/user/login.jsp</result>
@@ -107,14 +107,14 @@
 	</package>
 	
 	<!-- 模板 -->
-	<package name="freemarkerFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="freemarkerFront" namespace="/" extends="struts-carshopping-front">
 		<action name="freemarker" class="freemarkerActionFront">
 			<result name="success" type="redirect">/manage/freemarker/freemarkerList.jsp</result>
 		</action>
 	</package>
 	
 	<!-- 问卷管理 -->
-	<package name="questionnaireFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="questionnaireFront" namespace="/" extends="struts-carshopping-front">
 		<action name="questionnaire" class="questionnaireActionFront">
 			<result name="show">/questionnaire.jsp</result>
 			<result name="success" type="redirect">/questionnaireSuccess.jsp</result>
@@ -122,7 +122,7 @@
 	</package>
 	
 	<!-- 文章管理 -->
-	<package name="newsFront" namespace="/" extends="struts-jeeshop-front">
+	<package name="newsFront" namespace="/" extends="struts-carshopping-front">
 		<action name="news" class="newsActionFront">
 			<result name="newsInfo">/newsInfo.jsp</result>
 			<result name="help">/help.jsp</result>

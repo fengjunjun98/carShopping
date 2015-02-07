@@ -2,15 +2,15 @@
  * 2012-7-8
  * jqsl2012@163.com
  */
-package net.jeeshop.services.front.indexImg.dao.impl;
+package net.carshopping.services.front.indexImg.dao.impl;
 
 import java.util.List;
 
-import net.jeeshop.core.dao.BaseDao;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.services.front.comment.bean.Comment;
-import net.jeeshop.services.front.indexImg.bean.IndexImg;
-import net.jeeshop.services.front.indexImg.dao.IndexImgDao;
+import net.carshopping.core.dao.BaseDao;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.services.front.comment.bean.Comment;
+import net.carshopping.services.front.indexImg.bean.IndexImg;
+import net.carshopping.services.front.indexImg.dao.IndexImgDao;
 
 
 /**

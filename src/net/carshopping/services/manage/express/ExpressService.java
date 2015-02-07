@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.express;import net.jeeshop.core.Services;import net.jeeshop.services.manage.express.bean.Express;public interface ExpressService extends Services<Express> {}
+package net.carshopping.services.manage.express;import net.carshopping.core.Services;import net.carshopping.services.manage.express.bean.Express;public interface ExpressService extends Services<Express> {}

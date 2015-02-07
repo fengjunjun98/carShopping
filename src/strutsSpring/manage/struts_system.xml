@@ -4,7 +4,7 @@
     "http://struts.apache.org/dtds/struts-2.3.dtd">
     
 <struts>
-    <package name="user" namespace="/manage" extends="struts-jeeshop-manage">
+    <package name="user" namespace="/manage" extends="struts-carshopping-manage">
         <action name="user" class="userActionManage">
             <result name="input" type="redirect">/manage/admin.jsp</result>
             <result name="success" type="redirect">/manage/main.jsp</result>
@@ -18,7 +18,7 @@
         </action>
     </package>
     
-    <package name="role" namespace="/manage" extends="struts-jeeshop-manage">
+    <package name="role" namespace="/manage" extends="struts-carshopping-manage">
         <action name="role" class="roleActionManage">
             <result name="toList">/manage/system/role/roleList.jsp</result>
             <result name="toEdit">/manage/system/role/editRole.jsp</result>
@@ -26,7 +26,7 @@
         </action>
     </package>
     
-    <package name="menu" namespace="/manage" extends="struts-jeeshop-manage">
+    <package name="menu" namespace="/manage" extends="struts-carshopping-manage">
         <action name="menu" class="menuActionManage">
             <result name="toList">/manage/system/menu/menuList.jsp</result>
             <result name="toEdit">/manage/system/menu/editMenu.jsp</result>

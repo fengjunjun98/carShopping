@@ -13,9 +13,9 @@ import net.carshopping.core.KeyValueHelper;
 import net.carshopping.core.exception.NotThisMethod;
 import net.carshopping.core.oscache.FrontCache;
 import net.carshopping.core.oscache.ManageCache;
-import net.jeeshop.services.manage.oss.OssService;
-import net.jeeshop.services.manage.oss.bean.AliyunOSS;
-import net.jeeshop.services.manage.oss.bean.Oss;
+import net.carshopping.services.manage.oss.OssService;
+import net.carshopping.services.manage.oss.bean.AliyunOSS;
+import net.carshopping.services.manage.oss.bean.Oss;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

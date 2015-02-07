@@ -5,8 +5,8 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.questionnaireResult;
 import net.carshopping.core.BaseAction;
-import net.jeeshop.services.manage.questionnaireResult.QuestionnaireResultService;
-import net.jeeshop.services.manage.questionnaireResult.bean.QuestionnaireResult;
+import net.carshopping.services.manage.questionnaireResult.QuestionnaireResultService;
+import net.carshopping.services.manage.questionnaireResult.bean.QuestionnaireResult;
 
 /** 项目名称：carShopping 
  * 类名称：QuestionnaireResultAction 

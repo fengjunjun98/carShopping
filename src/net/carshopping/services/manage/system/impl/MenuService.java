@@ -1,4 +1,4 @@
-package net.jeeshop.services.manage.system.impl;
+package net.carshopping.services.manage.system.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,13 +7,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.jeeshop.core.Services;
-import net.jeeshop.core.dao.BaseDao;
-import net.jeeshop.core.dao.page.PagerModel;
-import net.jeeshop.core.system.bean.Menu;
-import net.jeeshop.core.system.bean.MenuItem;
-import net.jeeshop.core.system.bean.MenuType;
-import net.jeeshop.core.system.bean.User;
+import net.carshopping.core.Services;
+import net.carshopping.core.dao.BaseDao;
+import net.carshopping.core.dao.page.PagerModel;
+import net.carshopping.core.system.bean.Menu;
+import net.carshopping.core.system.bean.MenuItem;
+import net.carshopping.core.system.bean.MenuType;
+import net.carshopping.core.system.bean.User;
 
 
 /**

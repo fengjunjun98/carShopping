@@ -19,17 +19,17 @@ import net.carshopping.core.ManageContainer;
 import net.carshopping.core.front.SystemManager;
 import net.carshopping.core.oscache.ManageCache;
 import net.carshopping.core.system.bean.User;
-import net.jeeshop.services.front.product.bean.ProductStockInfo;
-import net.jeeshop.services.manage.attribute.AttributeService;
-import net.jeeshop.services.manage.attribute.bean.Attribute;
-import net.jeeshop.services.manage.attribute_link.Attribute_linkService;
-import net.jeeshop.services.manage.attribute_link.bean.Attribute_link;
-import net.jeeshop.services.manage.gift.GiftService;
-import net.jeeshop.services.manage.gift.bean.Gift;
-import net.jeeshop.services.manage.product.ProductService;
-import net.jeeshop.services.manage.product.bean.Product;
-import net.jeeshop.services.manage.spec.SpecService;
-import net.jeeshop.services.manage.spec.bean.Spec;
+import net.carshopping.services.front.product.bean.ProductStockInfo;
+import net.carshopping.services.manage.attribute.AttributeService;
+import net.carshopping.services.manage.attribute.bean.Attribute;
+import net.carshopping.services.manage.attribute_link.Attribute_linkService;
+import net.carshopping.services.manage.attribute_link.bean.Attribute_link;
+import net.carshopping.services.manage.gift.GiftService;
+import net.carshopping.services.manage.gift.bean.Gift;
+import net.carshopping.services.manage.product.ProductService;
+import net.carshopping.services.manage.product.bean.Product;
+import net.carshopping.services.manage.spec.SpecService;
+import net.carshopping.services.manage.spec.bean.Spec;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
@@ -907,7 +907,7 @@ public class ProductAction extends BaseAction<Product> {
 //				
 //				Product ppp = new Product();
 //				ppp.setId(pp.getId());
-//				ppp.setProductHTML(pp.getProductHTML().replace("http://jeeshopxx.oss.aliyuncs.com/", "http://myshopxx.oss.aliyuncs.com/"));
+//				ppp.setProductHTML(pp.getProductHTML().replace("http://carshoppingxx.oss.aliyuncs.com/", "http://myshopxx.oss.aliyuncs.com/"));
 //				
 //				logger.error(">>>test2>>"+ppp.getProductHTML());
 //				productService.update(ppp);

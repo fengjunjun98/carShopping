@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import net.carshopping.core.BaseAction;
 import net.carshopping.core.freemarker.front.FreemarkerHelper;
-import net.jeeshop.services.front.account.bean.Account;
+import net.carshopping.services.front.account.bean.Account;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;

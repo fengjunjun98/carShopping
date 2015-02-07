@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.accountRank.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.accountRank.bean.AccountRank;public interface AccountRankDao extends DaoManager<AccountRank> {}
+package net.carshopping.services.manage.accountRank.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.accountRank.bean.AccountRank;public interface AccountRankDao extends DaoManager<AccountRank> {}

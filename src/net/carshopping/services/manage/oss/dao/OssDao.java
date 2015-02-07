@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.oss.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.oss.bean.Oss;public interface OssDao extends DaoManager<Oss> {}
+package net.carshopping.services.manage.oss.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.oss.bean.Oss;public interface OssDao extends DaoManager<Oss> {}

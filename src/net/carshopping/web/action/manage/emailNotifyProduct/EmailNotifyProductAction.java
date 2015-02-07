@@ -8,10 +8,10 @@ import java.io.IOException;
 
 import org.slf4j.LoggerFactory;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.emailNotifyProduct.EmailNotifyProductService;
-import net.jeeshop.services.manage.emailNotifyProduct.bean.EmailNotifyProduct;
-import net.jeeshop.services.manage.emailNotifyProduct.impl.EmailNotifyProductServiceImpl;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.emailNotifyProduct.EmailNotifyProductService;
+import net.carshopping.services.manage.emailNotifyProduct.bean.EmailNotifyProduct;
+import net.carshopping.services.manage.emailNotifyProduct.impl.EmailNotifyProductServiceImpl;
 /** 项目名称：carShopping 
  * 类名称：EmailNotifyProductAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

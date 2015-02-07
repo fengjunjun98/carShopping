@@ -8,8 +8,8 @@ import net.carshopping.core.BaseAction;
 import net.carshopping.core.KeyValueHelper;
 import net.carshopping.core.ManageContainer;
 import net.carshopping.core.system.bean.User;
-import net.jeeshop.services.manage.pay.PayService;
-import net.jeeshop.services.manage.pay.bean.Pay;
+import net.carshopping.services.manage.pay.PayService;
+import net.carshopping.services.manage.pay.bean.Pay;
 import net.carshopping.web.action.manage.product.ProductAction;
 
 import org.apache.commons.lang.StringUtils;

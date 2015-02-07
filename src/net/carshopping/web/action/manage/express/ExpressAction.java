@@ -5,6 +5,10 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.express;
 
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.common.Express;
+import net.carshopping.services.front.express.ExpressService;
+
 /** 项目名称：carShopping 
  * 类名称：ExpressAction 
  * 类描述：b2b,b2c，处理页面提交的请求。 

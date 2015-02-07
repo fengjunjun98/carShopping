@@ -9,8 +9,8 @@ import org.tuckey.web.filters.urlrewrite.utils.StringUtils;
 import net.carshopping.core.BaseAction;
 import net.carshopping.core.ManageContainer;
 import net.carshopping.core.sms.SMSWebChinese;
-import net.jeeshop.services.manage.sms.SmsService;
-import net.jeeshop.services.manage.sms.bean.Sms;
+import net.carshopping.services.manage.sms.SmsService;
+import net.carshopping.services.manage.sms.bean.Sms;
 /** 项目名称：carShopping 
  * 类名称：SmsAction 短信管理
  * 类描述：b2b,b2c，处理页面提交的请求。 

@@ -5,8 +5,8 @@
  * 版权所有 * */
 package net.carshopping.web.action.manage.questionnaireItem;
 import net.carshopping.core.BaseAction;
-import net.jeeshop.services.manage.questionnaireItem.QuestionnaireItemService;
-import net.jeeshop.services.manage.questionnaireItem.bean.QuestionnaireItem;
+import net.carshopping.services.manage.questionnaireItem.QuestionnaireItemService;
+import net.carshopping.services.manage.questionnaireItem.bean.QuestionnaireItem;
 /** 项目名称：carShopping 
  * 类名称：QuestionnaireItemAction 问卷调查 
  * 类描述：b2b,b2c，处理页面提交的请求。 

@@ -7,12 +7,12 @@ package net.carshopping.web.action.manage.catalog;
 import java.io.IOException;
 import java.util.List;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.front.SystemManager;
-import net.jeeshop.core.oscache.FrontCache;
-import net.jeeshop.core.util.PinYinUtil;
-import net.jeeshop.services.manage.catalog.CatalogService;
-import net.jeeshop.services.manage.catalog.bean.Catalog;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.front.SystemManager;
+import net.carshopping.core.oscache.FrontCache;
+import net.carshopping.core.util.PinYinUtil;
+import net.carshopping.services.manage.catalog.CatalogService;
+import net.carshopping.services.manage.catalog.bean.Catalog;
 import net.sf.json.JSONArray;
 
 import org.apache.commons.lang.StringUtils;
@@ -111,7 +111,7 @@ public class CatalogAction extends BaseAction<Catalog> {
 	public String getRootWithTreegrid() throws Exception {
 		logger.error(">>>selectList type = "+e.getType());
 		
-		List<net.jeeshop.services.front.catalog.bean.Catalog> root = null;
+		List<net.carshopping.services.front.catalog.bean.Catalog> root = null;
 		if(e.getType().equals("p")){
 			//直接使用缓存数据
 			if(SystemManager.productCatalogJsonStr!=null){

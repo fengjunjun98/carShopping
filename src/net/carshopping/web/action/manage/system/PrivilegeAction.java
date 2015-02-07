@@ -9,7 +9,7 @@ import java.util.List;
 import net.carshopping.core.BaseAction;
 import net.carshopping.core.Services;
 import net.carshopping.core.system.bean.Privilege;
-import net.jeeshop.services.manage.system.impl.PrivilegeService;
+import net.carshopping.services.manage.system.impl.PrivilegeService;
 /** 项目名称：carShopping 
  * 类名称：PrivilegeAction 权限管理
  * 类描述：b2b,b2c，处理页面提交的请求。 

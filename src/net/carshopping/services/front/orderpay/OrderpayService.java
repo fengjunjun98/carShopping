@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.orderpay;import net.jeeshop.core.Services;import net.jeeshop.services.front.orderpay.bean.Orderpay;public interface OrderpayService extends Services<Orderpay> {}
+package net.carshopping.services.front.orderpay;import net.carshopping.core.Services;import net.carshopping.services.front.orderpay.bean.Orderpay;public interface OrderpayService extends Services<Orderpay> {}

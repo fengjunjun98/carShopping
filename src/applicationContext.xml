@@ -21,7 +21,7 @@
 		destroy-method="close">
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
 		
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/git_jeeshop" />
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/carshopping" />
 		<property name="user" value="root" />
 		<property name="password" value="root" />
 <!-- 		<property name="setAutoCommitOnClose" value="false"/> -->
@@ -101,7 +101,7 @@
 		</tx:attributes>
 	</tx:advice>
 	<aop:config proxy-target-class="true">
-		<aop:pointcut id="interceptorPointCuts" expression="execution(public * net.jeeshop.services.*.impl.*.*(..))" />
+		<aop:pointcut id="interceptorPointCuts" expression="execution(public * net.carshopping.services.*.impl.*.*(..))" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="interceptorPointCuts" />
 	</aop:config>
 	

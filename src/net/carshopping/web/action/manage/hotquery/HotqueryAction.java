@@ -4,9 +4,9 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.hotquery;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.hotquery.HotqueryService;
-import net.jeeshop.services.manage.hotquery.bean.Hotquery;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.hotquery.HotqueryService;
+import net.carshopping.services.manage.hotquery.bean.Hotquery;
 
 /** 项目名称：carShopping 
  * 类名称：HotqueryAction 

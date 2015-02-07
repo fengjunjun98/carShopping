@@ -1,1 +1,1 @@
-package net.jeeshop.services.front.advert.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.front.advert.bean.Advert;public interface AdvertDao extends DaoManager<Advert> {}
+package net.carshopping.services.front.advert.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.front.advert.bean.Advert;public interface AdvertDao extends DaoManager<Advert> {}

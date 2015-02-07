@@ -4,9 +4,9 @@
  * Copyright: Corporation 2015 
  * 版权所有 * */
 package net.carshopping.web.action.manage.email;
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.services.manage.email.EmailService;
-import net.jeeshop.services.manage.email.bean.Email;
+import net.carshopping.core.BaseAction;
+import net.carshopping.services.manage.email.EmailService;
+import net.carshopping.services.manage.email.bean.Email;
 
 /** 项目名称：carShopping 
  * 类名称：EmailAction 

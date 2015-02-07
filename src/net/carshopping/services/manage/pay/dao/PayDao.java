@@ -1,1 +1,1 @@
-package net.jeeshop.services.manage.pay.dao;import net.jeeshop.core.DaoManager;import net.jeeshop.services.manage.pay.bean.Pay;public interface PayDao extends DaoManager<Pay> {}
+package net.carshopping.services.manage.pay.dao;import net.carshopping.core.DaoManager;import net.carshopping.services.manage.pay.bean.Pay;public interface PayDao extends DaoManager<Pay> {}

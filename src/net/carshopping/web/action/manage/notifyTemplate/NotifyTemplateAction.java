@@ -17,11 +17,11 @@ import com.alibaba.fastjson.JSON;
 
 import sun.util.logging.resources.logging;
 
-import net.jeeshop.core.BaseAction;
-import net.jeeshop.core.util.FreemarkerTemplateUtil;
-import net.jeeshop.services.manage.notifyTemplate.NotifyTemplateService;
-import net.jeeshop.services.manage.notifyTemplate.bean.NotifyTemplate;
-import net.jeeshop.web.action.manage.product.ProductAction;
+import net.carshopping.core.BaseAction;
+import net.carshopping.core.util.FreemarkerTemplateUtil;
+import net.carshopping.services.manage.notifyTemplate.NotifyTemplateService;
+import net.carshopping.services.manage.notifyTemplate.bean.NotifyTemplate;
+import net.carshopping.web.action.manage.product.ProductAction;
 /** 项目名称：carShopping 
  * 类名称：NotifyTemplateAction 通知模板
  * 类描述：b2b,b2c，处理页面提交的请求。 
@@ -118,10 +118,10 @@ public class NotifyTemplateAction extends BaseAction<NotifyTemplate> {
 		if(NotifyTemplate.email_reg.equals(e.getCode())){
 			Map data = new HashMap();  
 			data.put("nickname", "测试");
-			data.put("system", "jeeshop");
+			data.put("system", "carshopping");
 			data.put("url", "http://www.baidu.com");
 			data.put("servicesPhone", "400-666-8888");
-			data.put("systemEmail", "jeeshop@jeeshop.net");
+			data.put("systemEmail", "carshopping@carshopping.com");
 			data.put("helpUrl", "http://www.baidu.com");
 			try {
 				FreemarkerTemplateUtil.freemarkerProcess(data,e.getTemplate());

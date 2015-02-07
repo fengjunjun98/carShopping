@@ -12,20 +12,20 @@
            http://www.springframework.org/schema/tx 
            http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 	<!-- 取消订单定时器 -->
-	<bean id="cancelOrderTask" class="net.jeeshop.core.task.CancelOrderTask">
+	<bean id="cancelOrderTask" class="net.carshopping.core.task.CancelOrderTask">
 		<property name="orderService" ref="orderServiceManage"></property>
 	</bean>
 	<!-- 系统自动到货通知定时器 -->
-	<bean id="systemAutoNotifyTask" class="net.jeeshop.core.task.SystemAutoNotifyTask">
+	<bean id="systemAutoNotifyTask" class="net.carshopping.core.task.SystemAutoNotifyTask">
 		<property name="emailNotifyProductService" ref="emailNotifyProductServiceManage"></property>
 	</bean>
 	<!-- 系统自动到货通知定时器 -->
-	<bean id="manageCacheTask" class="net.jeeshop.core.task.ManageCacheTask">
+	<bean id="manageCacheTask" class="net.carshopping.core.task.ManageCacheTask">
 		<property name="manageCache" ref="manageCache"></property>
 	</bean>
 	
 	<!-- 任何管理器 -->
-	<bean id="taskManager" class="net.jeeshop.core.TaskManager">
+	<bean id="taskManager" class="net.carshopping.core.TaskManager">
 		<property name="systemAutoNotifyTask" ref="systemAutoNotifyTask"></property>
 		<property name="cancelOrderTask" ref="cancelOrderTask"></property>
 		<property name="manageCacheTask" ref="manageCacheTask"></property>
